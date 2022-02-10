@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.title {
+  @apply text-4xl text-center font-semibold p-4 md:text-5xl;
+}
+
+.form {
+  @apply w-3/4 min-w-fit h-20 mx-auto flex justify-center items-center;
+}
+
+.input {
+  @apply rounded w-12 h-4 px-3 py-4 mr-5 border-2 border-slate-400 border-solid;
+}
+
+.input::-webkit-inner-spin-button {
+  @apply appearance-none;
+}
+
+.button {
+  @apply px-3 py-2 bg-green-400 hover:bg-green-600 rounded-lg;
+}
+
+.text-section {
+  @apply w-5/6 h-xl p-4 overflow-y-scroll mx-auto;
+}
+
+p {
+  @apply w-auto text-base block break-words text-center;
+}
+
+.copy-div {
+  @apply w-full flex justify-center;
+}
+
+.hide-button {
+  @apply hidden;
+}
